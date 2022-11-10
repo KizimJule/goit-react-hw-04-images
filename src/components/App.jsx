@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -31,7 +31,6 @@ export function App() {
         theme: 'colored',
       });
     }
-    console.log(newName);
     setName(newName);
     setPage(1);
     setPictures([]);

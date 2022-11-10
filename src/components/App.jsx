@@ -25,9 +25,9 @@ export class App extends Component {
     totalImages: 0,
   };
 
-  imgInfo = e => {
+  imgInfo = evt => {
     this.setState({
-      largeImageURL: e,
+      largeImageURL: evt,
     });
   };
 

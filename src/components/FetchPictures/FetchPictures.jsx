@@ -1,7 +1,7 @@
 import axios from 'axios';
 import PropTypes from 'prop-types';
 
-export const fetchPictures = (name, page = 1) => {
+export const fetchPictures = (name = '', page = 1) => {
   const apiUrl = 'https://pixabay.com/api/';
   const apiKey = '30025570-88047e109e19df2adec6469b3';
 
